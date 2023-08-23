@@ -1,48 +1,11 @@
 # Playing with Angular Signals
 
 ## About this project
-
+Only to practice Angular 16 and Signals.
 
 ## About Angular on this project
 Read the [about Angular](docs/about-angular.md) document.
 
----
 
-# US
-
-## Part 1
-
-### Add module called `signals`
-```bash
-ng g module signals --module app --route signals
-```
-
-### Add component called `signalsLayout`
-```bash
-ng g component signals/layout/signalsLayout --skip-selector
-```
-
-### Add component called `counterPage` in the `signals/page` folder
-```bash
-ng g component signals/pages/counterPage --skip-selector
-```
-
-### Add component called `userInfoPage` in the `signals/page` folder
-```bash
-ng g component signals/pages/userInfoPage --skip-selector
-```
-
-### Add component called `propertiesPage` in the `signals/page` folder
-```bash
-ng g component signals/pages/propertiesPage --skip-selector
-```
-
-### Add component called `sideMenu` in the `signals/components` folder
-```bash
-ng g component signals/components/sideMenu
-```
-
-### Add Service for users
-```bash
-ng g service signals/services/usersService
-```
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
